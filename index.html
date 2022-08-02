@@ -26,7 +26,27 @@
 
 
 <style>
+.loader:before, .loader:after {
+    background: linear-gradient(251deg, #ffffff, #ffffff);
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:150px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+.my-float{
+	margin-top:16px;
+}
 </style>
 
 
@@ -36,7 +56,9 @@
 		<div class="loading">
 		    <img class="logo-loading" src="images/logo/munfird.png"s alt="logo">
 	    </div><!-- loading end -->
-	    
+	    	    <a href="whatsapp://send?phone=14384766790" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 		<!-- pointer start -->
 		<div class="pointer" id="pointer">
 			<i class="fas fa-long-arrow-alt-right"></i>
