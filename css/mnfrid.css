@@ -107,9 +107,10 @@ font-family: 'Tajawal' !important;
     overflow: hidden;
     position: relative;
     background: #ffffff00;
-}.loader:before, .loader:after {
-  
-    background: linear-gradient(45deg, #dfb3ad, #2d4b68);}
+}
+.loader:before, .loader:after {
+    background: linear-gradient(251deg, #ffffff, #ffffff);
+}
 .client-list li{
     background: white;
 }
