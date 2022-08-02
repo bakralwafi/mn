@@ -29,7 +29,27 @@
 *{
 font-family: 'Tajawal' !important;
 }
+.loader:before, .loader:after {
+    background: linear-gradient(251deg, #ffffff, #ffffff);
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:150px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+.my-float{
+	margin-top:16px;
+}
 </style>
 
 
@@ -39,7 +59,9 @@ font-family: 'Tajawal' !important;
 		<div class="loading">
 		    <img class="logo-loading" src="images/logo/munfird.png"s alt="logo">
 	    </div><!-- loading end -->
-	    
+	        <a href="whatsapp:" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 		<!-- pointer start -->
 		<div class="pointer" id="pointer">
 			<i class="fas fa-long-arrow-alt-right"></i>
@@ -117,7 +139,7 @@ font-family: 'Tajawal' !important;
 				</li><!-- nav-box end -->
 				<!-- nav-box start -->
 				<li class="nav-box nav-bg-change">
-					<a href="#services" class="animsition-link pointer-large nav-link">
+					<a href="services.html" class="animsition-link pointer-large nav-link">
 						<span class="nav-btn " data-text="خدماتنا">خدماتنا</span>
 					</a>
 					<div class="nav-bg" style="background-image: url(assets/images/backgrounds/services-page.jpg);"></div>
@@ -151,7 +173,7 @@ font-family: 'Tajawal' !important;
 					  	<!-- slide-bg -->
 				      	<div class="slide-bg overlay-loading2 overlay-dark-bg-1" style="background-image:url(images/backgrounds/back.jpg)"></div>
 				      	<!-- home-slider-content start -->
-					  	<div class="home-slider-content flex-min-height-inner "style="background: #365270;">
+					  	<div class="home-slider-content flex-min-height-inner dark-bg-1">
 						  	<!-- flex-container start -->
 					      	<div class="container top-bottom-padding-120 flex-container response-999">
 						      	<!-- column start -->
@@ -441,7 +463,7 @@ font-family: 'Tajawal' !important;
 		
 			
 			<!-- latest-news start -->
-			<section class="latest-news top-padding-120 bottom-padding-30 light-bg-1" data-midnight="black" id="services">
+			<section class="latest-news top-padding-120 bottom-padding-30 light-bg-1" data-midnight="black">
 				<!-- container start -->
 				<div class="container">
 					<!-- text-center start -->
@@ -694,7 +716,7 @@ font-family: 'Tajawal' !important;
 						<ul class="footer-menu text-color-4">
 							<li><a class="pointer-large animsition-link small-title-oswald hover-color active" href="index.html">الرئيسية</a></li>
 							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="about.html">عنا</a></li>
-							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="#services">خدماتنا</a></li>
+							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="services.html">خدماتنا</a></li>
 							<li><a class="pointer-large animsition-link small-title-oswald hover-color" href="contact.html">تواصل معنا</a></li>
 						</ul>
 					</div>
