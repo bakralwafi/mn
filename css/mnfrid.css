@@ -625,6 +625,10 @@ color: #fffff1;}
 	font-size:20px;
 	
 }
+.slick-slide img {
+    display: block;
+    height: 100px;
+}
 .wrapper {
     display: flex;
     width: 100%;
